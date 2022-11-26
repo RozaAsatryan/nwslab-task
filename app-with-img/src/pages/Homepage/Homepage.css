@@ -1,0 +1,32 @@
+.homepage-wrapper {
+  height: 87vh;
+  grid-area: content;
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/c/fb/cat-yellow-eyes-paw-funny-cute-simple-background-digital-art.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.head-text {
+  font-size: 50px;
+  color: rgb(34, 33, 33);
+  text-shadow: 1px 0px 5px white;
+}
+
+.start-link {
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 30px;
+  color: rgb(141, 141, 141);
+}
+
+.start-link:hover {
+  transition: 0.2s;
+  color: white;
+  box-shadow: 1px 0px 5px white;
+}

@@ -1,0 +1,44 @@
+.sidebar-menu-wrapper {
+  padding: 30px;
+  position: sticky;
+  top: 80px;
+  border-right: 1px solid rgba(0, 0, 0, 0.247);
+  height: 87vh;
+  grid-area: sidebar;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.sidebar-menu-item {
+  font-size: 25px;
+  text-transform: uppercase;
+  list-style-type: none;
+  color: black;
+}
+
+.sidebar-menu-item {
+  background-image: linear-gradient(120deg, #fa84bb60 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.active {
+  color: #1e026b;
+}
+
+.sidebar-menu-item:hover {
+  color: rgb(139, 139, 139);
+  background-size: 100% 88%;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar-menu-item {
+    font-size: 20px;
+  }
+}

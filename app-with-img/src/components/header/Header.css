@@ -1,0 +1,19 @@
+.header-wrapper {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(215, 204, 255, 0.596);
+  padding: 20px 0;
+}
+
+.header-logo {
+  color: #564f4f;
+}
+
+.menu-item {
+  color: #564f4f;
+  font-size: 20px;
+}
